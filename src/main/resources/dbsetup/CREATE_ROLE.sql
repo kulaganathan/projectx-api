@@ -1,0 +1,12 @@
+DROP ROLE IF EXISTS projx_owner;
+
+CREATE ROLE projx_owner WITH
+  PASSWORD 'Password!@#'
+  NOSUPERUSER
+  INHERIT
+  NOCREATEDB
+  NOCREATEROLE
+  NOREPLICATION
+  LOGIN;
+
+-- reg qazwsxedc/kalai
